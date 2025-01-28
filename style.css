@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://plus.unsplash.com/premium_photo-1668941954953-0475b70cf897?q=80&w=1990&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
+    flex-direction: column;
+}
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    
+}
+input {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    padding: 10px;
+    width: 85px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.add-btn {
+    background-color: #28a745;
+}
+.add-btn:hover {
+    background-color: #218838;
+}
+.edit-btn {
+    background-color: #ffc107;
+}
+.edit-btn:hover {
+    background-color: #e0a800;
+}
+.delete-btn {
+    background-color: #dc3545;
+}
+.delete-btn:hover {
+    background-color: #c82333;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.action-buttons {
+    display: flex;
+    gap: 5px;
+}
+.task-input {
+    border: none;
+    background: none;
+    width: 100%;
+    font-size: 16px;
+}
